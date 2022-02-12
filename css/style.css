@@ -80,6 +80,18 @@ hr{
 }
 
 /*  */
+.column-2{
+    float: left;
+    width: 10%;
+    margin: 0;
+    overflow: hidden;
+}
+.column-8{
+    width: 80%;
+    margin: 0;
+    float: left;
+}
+
 .first{
     border-right: 1px solid white;
     height: 100vh;
