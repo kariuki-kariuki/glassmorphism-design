@@ -86,14 +86,14 @@ hr{
     margin: 0;
     overflow: hidden;
 }
-.column-8{
-    width: 80%;
+.column-9{
+    width: 90%;
     margin: 0;
     float: left;
 }
 
 .first{
-    border-right: 1px solid white;
+    border-right: .1px solid rgb(189, 182, 182);
     height: 100vh;
 }
 
@@ -108,10 +108,24 @@ hr{
     color: whitesmoke;
     font-size: 10px;
 }
-p:hover{
-    background: #cec9c9;
-    display: block;
-    padding: 5px;
+
+
+/* top panel*/
+
+.panel-top{
+    text-align: center;
+    padding: 0;
+    border-bottom: 0.1px solid rgb(143, 138, 138);
+    width: 100%;
+}
+.panel-top p{
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+
+}
+.panel-top p:hover{
+    border-bottom: 2px solid rgb(231, 228, 228);
 }
 
 
