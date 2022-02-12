@@ -11,6 +11,7 @@ body{
     height: 95vh;
     background-color: rgba(19, 18, 18, 0.2);
     overflow: hidden;
+    border-radius: 20px;
 }
 header{
     padding-top: 30px;
@@ -68,9 +69,10 @@ span{
 }
 
 .links input{
-    border: 1px solid yellow;
     padding-left: 10px;
-    border-radius: 8px;
+    border-radius: 4px;
+    background-color: rgb(17, 21, 31);
+    color: white;
 }
 
 hr{
@@ -129,3 +131,51 @@ hr{
 }
 
 
+/* Contents*/
+
+.content{
+    padding-left: 20px;
+}
+.adobe{
+    background-image: url("/images/tech_crypto5.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(66, 38, 38);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+
+.adobe button{
+    background-color: rgb(161, 161, 231);
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.mytable{
+    background: rgba(19, 18, 18, 0.2);
+    border-radius: 20px;
+    color: aliceblue;
+}
+.tr1{
+    border-bottom: 1px solid rgb(121, 119, 119);
+}
+
+table button{
+    border: .1px solid white;
+    background: rgba(126, 122, 122, 0.1);
+    color: white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr:hover{
+    background-color: rgba(148, 132, 132, 0.6);
+    border-radius: 10px;
+}
