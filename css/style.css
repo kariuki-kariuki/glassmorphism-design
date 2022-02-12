@@ -8,12 +8,14 @@ body{
 
 .home{
     margin: 5%;
-    height: 90vh;
+    height: 95vh;
     background-color: rgba(19, 18, 18, 0.2);
+    overflow: hidden;
 }
 header{
     padding-top: 30px;
     justify-content: center;
+    margin: 0;
 }
 
 span{
@@ -70,3 +72,34 @@ span{
     padding-left: 10px;
     border-radius: 8px;
 }
+
+hr{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*  */
+.first{
+    border-right: 1px solid white;
+    height: 100vh;
+}
+
+.apps, .categories, .fonts, .resourceslinks{
+    color: #443434;
+    font-size: 10px;
+}
+
+#apps, #categories, #fonts, #resourceslinks{
+    padding-left: 5px;
+    line-height: 30px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+p:hover{
+    background: #cec9c9;
+    display: block;
+    padding: 5px;
+}
+
+
