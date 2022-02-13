@@ -8,9 +8,9 @@ body{
 
 .home{
     margin: 5%;
-    height: 95vh;
+    height: auto;
     background-color: rgba(19, 18, 18, 0.2);
-    overflow: hidden;
+    overflow: auto;
     border-radius: 20px;
 }
 header{
@@ -105,7 +105,7 @@ hr{
 
 .first{
     border-right: .1px solid rgb(189, 182, 182);
-    height: 100vh;
+    height: 100%;
 }
 
 .apps, .categories, .fonts, .resourceslinks{
@@ -146,14 +146,15 @@ hr{
     padding-left: 20px;
 }
 .adobe{
-    background-image: url("images/tech_crypto5.jpg");
+    background-image: url("images/crystal.jpg");
     background-position: center;
     background-size: cover;
     color: rgb(66, 38, 38);
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     margin-top: 5px;
-
+    height: auto;
+    color: white;
 }
 
 .adobe button{
@@ -161,9 +162,10 @@ hr{
     border: none;
     margin-left: 20px;
     border-radius: 10px;
-    width: 30%;
+    width: 25%;
     margin-top: 10px;
     margin-bottom: 0;
+    color: white;
 }
 
 .mytable{
@@ -187,4 +189,36 @@ table button{
 tr:hover{
     background-color: rgba(148, 132, 132, 0.6);
     border-radius: 10px;
+}
+
+.threequarter{
+    width: 33%;
+    float: left;
+    margin: 0;
+}
+
+.w3-content{
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    background: rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.w3-content hr{
+    height: .1px;
+    color: blanchedalmond;
+    margin-top: 7px;
+}
+
+.w3-content button{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+}
+
+.mybtn{
+    float: right;
 }
