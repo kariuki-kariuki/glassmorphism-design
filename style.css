@@ -19,7 +19,16 @@ header{
     margin: 0;
 }
 
-span{
+.spans span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 2px;
+    justify-content: space-around;
+}
+
+.profile span{
     display: inline-block;
     height: 15px;
     width: 15px;
