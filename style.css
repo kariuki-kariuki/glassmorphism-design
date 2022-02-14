@@ -7,7 +7,11 @@ body{
 }
 
 .home{
-    margin: 5%;
+
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
     height: auto;
     background-color: rgba(19, 18, 18, 0.2);
     overflow: auto;
