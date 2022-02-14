@@ -228,7 +228,7 @@ tr:hover{
     color: violet;
 }
 
-.threequarter{
+.column-3{
     width: 33%;
     float: left;
     margin: 0;
@@ -239,7 +239,7 @@ tr:hover{
     color: white;
     font-size: 13px;
     background: rgba(0, 0, 0, .2);
-    margin-top: 10px;
+    margin: 10px;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -258,4 +258,33 @@ tr:hover{
 
 .mybtn{
     float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    [class*="column-"]{
+        width: 100%;
+    }
+    
+    .links ul{
+        display: unset;
+    }
+    .links li{
+        display: block;
+        padding: 30px;
+    }
+    .panel{
+        display: unset;
+        margin: 0;
+        padding: 0;
+    }
+    .profile{
+        float: unset;
+        padding-top: 30px;
+    }
+    .content{
+        padding: 0;
+    }
+    .w3-content{
+        margin: 10px 3px 10px 0px;
+    }
 }
