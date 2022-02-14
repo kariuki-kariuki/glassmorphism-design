@@ -80,8 +80,9 @@ header{
 .links input{
     padding-left: 10px;
     border-radius: 4px;
-    background-color: rgb(17, 21, 31);
+    background-color: rgba(17, 21, 31, .6);
     color: white;
+    border: none;
 }
 
 hr{
@@ -189,6 +190,42 @@ table button{
 tr:hover{
     background-color: rgba(148, 132, 132, 0.6);
     border-radius: 10px;
+}
+
+.green1{
+    display: inline-block;
+    width: 5px;
+    background-color: green;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.blue{
+    display: inline-block;
+    width: 5px;
+    background-color: blue;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.ill{
+    color: yellow;
+}
+
+.ae{
+    color: rgb(146, 48, 138);
+}
+
+.id{
+    color: rgb(155, 51, 94);
+}
+
+.ai{
+    color: rgb(139, 99, 38);
+}
+
+.pr{
+    color: violet;
 }
 
 .threequarter{
